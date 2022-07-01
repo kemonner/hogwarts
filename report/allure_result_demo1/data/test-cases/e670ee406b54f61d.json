@@ -1,0 +1,60 @@
+{
+  "uid" : "e670ee406b54f61d",
+  "name" : "test_broken",
+  "fullName" : "allure_demo1#test_broken",
+  "historyId" : "910a4c6686f2243edeff3d85b787b1ba",
+  "time" : {
+    "start" : 1655274598063,
+    "stop" : 1655274598063,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "Exception: oops",
+  "statusTrace" : "def test_broken():\n>       raise Exception('oops')\nE       Exception: oops\n\nallure_demo1.py:19: Exception",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "allure_demo1"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-6.local"
+  }, {
+    "name" : "thread",
+    "value" : "19317-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "allure_demo1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e670ee406b54f61d.json",
+  "parameterValues" : [ ]
+}
