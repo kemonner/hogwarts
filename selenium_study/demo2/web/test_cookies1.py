@@ -2,6 +2,7 @@ from selenium import webdriver
 import time
 import yaml
 """
+
     - 前置：打开浏览器
     1.拿到含有身份信息的cookie;
     2.拿到coookie后保存在本地文件中;
