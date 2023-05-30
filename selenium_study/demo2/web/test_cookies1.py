@@ -10,6 +10,7 @@ import yaml
     
 """
 
+
 class TestGetCookies:
     # 启动浏览器
     def setup_class(self):
